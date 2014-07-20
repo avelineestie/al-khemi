@@ -230,6 +230,376 @@ angular.module('alKhemiApp')
                     "num":"1"
                 }
             ]
+        },
+        {
+            "id":"013",
+            "name":"Milk Chocolate",
+            "items":[
+                {
+                    "name":"Chocolate",
+                    "num":"1"
+                },
+                {
+                    "name":"Creamy Milk",
+                    "num":"1"
+                },
+                {
+                    "name":"Bumbler Honey",
+                    "num":"1"
+                }
+            ]
+        },
+        {
+            "id":"014",
+            "name":"Fairy Chocolate",
+            "items":[
+                {
+                    "name":"Milk Chocolate",
+                    "num":"1"
+                },
+                {
+                    "name":"Angula",
+                    "num":"1"
+                },
+                {
+                    "name":"Rings-a-Bell",
+                    "num":"1"
+                }
+            ]
+        },
+        {
+            "id":"015",
+            "name":"Chocolate Bonbon",
+            "items":[
+                {
+                    "name":"Chocolate",
+                    "num":"2"
+                },
+                {
+                    "name":"Fogdrop",
+                    "num":"2"
+                },
+                {
+                    "name":"Bumbler Honey",
+                    "num":"2"
+                }
+            ]
+        },
+        {
+            "id":"016",
+            "name":"Snowdrop Bonbon",
+            "items":[
+                {
+                    "name":"Chocolate Bonbon",
+                    "num":"1"
+                },
+                {
+                    "name":"Caramel",
+                    "num":"2"
+                },
+                {
+                    "name":"Snowflake",
+                    "num":"1"
+                }
+            ]
+        },
+        {
+            "id":"017",
+            "name":"Princess Chocolate",
+            "items":[
+                {
+                    "name":"Fairy Chocolate",
+                    "num":"1"
+                },
+                {
+                    "name":"Snowdrop Bonbon",
+                    "num":"1"
+                },
+                {
+                    "name":"Crownberries",
+                    "num":"2"
+                }
+            ]
+        },
+        {
+            "id":"018",
+            "name":"Creamy Flan",
+            "items":[
+                {
+                    "name":"Flan",
+                    "num":"1"
+                },
+                {
+                    "name":"Dumpty Eggs",
+                    "num":"2"
+                },
+                {
+                    "name":"Bumbler Honey",
+                    "num":"1"
+                }
+            ]
+        },
+        {
+            "id":"019",
+            "name":"Babana Flan",
+            "items":[
+                {
+                    "name":"Creamy Flan",
+                    "num":"1"
+                },
+                {
+                    "name":"Babana",
+                    "num":"2"
+                },
+                {
+                    "name":"Gnomebeard",
+                    "num":"1"
+                }
+            ]
+        },
+        {
+            "id":"020",
+            "name":"Frosty Flan",
+            "items":[
+                {
+                    "name":"Flan",
+                    "num":"2"
+                },
+                {
+                    "name":"Snowflake",
+                    "num":"1"
+                },
+                {
+                    "name":"Bumbler Honey",
+                    "num":"2"
+                }
+            ]
+        },
+        {
+            "id":"021",
+            "name":"Fruit Flan",
+            "items":[
+                {
+                    "name":"Frosty Flan",
+                    "num":"1"
+                },
+                {
+                    "name":"Green Grapes",
+                    "num":"2"
+                },
+                {
+                    "name":"Sour Grapes",
+                    "num":"1"
+                }
+            ]
+        },
+        {
+            "id":"022",
+            "name":"Fantastic Flan",
+            "items":[
+                {
+                    "name":"Babana Flan",
+                    "num":"1"
+                },
+                {
+                    "name":"Fruit Flan",
+                    "num":"1"
+                },
+                {
+                    "name":"Big Babana",
+                    "num":"2"
+                }
+            ]
+        },
+        {
+            "id":"023",
+            "name":"Carrot Cake",
+            "items":[
+                {
+                    "name":"Cake",
+                    "num":"1"
+                },
+                {
+                    "name":"Crunchy Carrot",
+                    "num":"3"
+                }
+            ]
+        },
+        {
+            "id":"024",
+            "name":"Carnation Cake",
+            "items":[
+                {
+                    "name":"Carrot Cake",
+                    "num":"1"
+                },
+                {
+                    "name":"Dumpty Eggs",
+                    "num":"2"
+                },
+                {
+                    "name":"Angula",
+                    "num":"1"
+                }
+            ]
+        },
+        {
+            "id":"025",
+            "name":"Breeze Cake",
+            "items":[
+                {
+                    "name":"Cake",
+                    "num":"2"
+                },
+                {
+                    "name":"Caramel",
+                    "num":"2"
+                },
+                {
+                    "name":"Gustplume",
+                    "num":"1"
+                }
+            ]
+        },
+        {
+            "id":"026",
+            "name":"Patty Cake",
+            "items":[
+                {
+                    "name":"Breeze Cake",
+                    "num":"1"
+                },
+                {
+                    "name":"Rumblenuts",
+                    "num":"1"
+                },
+                {
+                    "name":"Power Stone",
+                    "num":"1"
+                }
+            ]
+        },
+        {
+            "id":"027",
+            "name":"Hot Cake",
+            "items":[
+                {
+                    "name":"Carnation Cake",
+                    "num":"1"
+                },
+                {
+                    "name":"Drakestone",
+                    "num":"1"
+                },
+                {
+                    "name":"Crownberries",
+                    "num":"2"
+                }
+            ]
+        },
+        {
+            "id":"028",
+            "name":"Sour Sundae",
+            "items":[
+                {
+                    "name":"Sundae",
+                    "num":"1"
+                },
+                {
+                    "name":"Yogurt",
+                    "num":"3"
+                }
+            ]
+        },
+        {
+            "id":"047",
+            "name":"Champion's Sword",
+            "items":[
+                {
+                    "name":"Soldier's Sword",
+                    "num":"1"
+                },
+                {
+                    "name":"Iron Diamond",
+                    "num":"2"
+                },
+                {
+                    "name":"Raw Steel",
+                    "num":"2"
+                }
+            ]
+        },
+        {
+            "id":"048",
+            "name":"Lost Sword",
+            "items":[
+                {
+                    "name":"Tachestone",
+                    "num":"1"
+                },
+                {
+                    "name":"Bass Bell",
+                    "num":"2"
+                },
+                {
+                    "name":"Rings-a-Bell",
+                    "num":"3"
+                }
+            ]
+        },
+        {
+            "id":"049",
+            "name":"Sainted Sword",
+            "items":[
+                {
+                    "name":"Greatsword",
+                    "num":"1"
+                },
+                {
+                    "name":"Meteorite Fragment",
+                    "num":"2"
+                },
+                {
+                    "name":"Powerstone",
+                    "num":"3"
+                }
+            ]
+        },
+        {
+            "id":"050",
+            "name":"Skyfall Sword",
+            "items":[
+                {
+                    "name":"Sainted Sword",
+                    "num":"1"
+                },
+                {
+                    "name":"Star Pearl",
+                    "num":"2"
+                },
+                {
+                    "name":"Meteorite Fragment",
+                    "num":"3"
+                }
+            ]
+        },
+        {
+            "id":"051",
+            "name":"Primordial Sword",
+            "items":[
+                {
+                    "name":"Skyfall Sword",
+                    "num":"1"
+                },
+                {
+                    "name":"Kaleidostone",
+                    "num":"5"
+                },
+                {
+                    "name":"Troll's Tears",
+                    "num":"5"
+                }
+            ]
         }
     ];
 
