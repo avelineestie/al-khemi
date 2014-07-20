@@ -1,36 +1,45 @@
-<div class="header">
-  <ul class="nav nav-pills pull-right">
-    <li class="active"><a ng-href="#">Home</a></li>
-    <li><a ng-href="#">About</a></li>
-    <li><a ng-href="#">Contact</a></li>
+<nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Al-Khemi</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href=".">Home</a></li>
+
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<div class="row">
+    <p class="col-md-12">This is a recipe finder for Ni No Kuni: Wrath of the White Witch.<br/><br/>Type in the name of an item below and you will see all the recipes that use this item.</p>
+</div>
+
+<div class="row">
+<div class="col-md-12">
+    <input type="text" ng-model="query" placeholder="Type an item name"/>
+</div>
+<div class="col-md-4" ng-repeat="recipe in recipes | filter:query">
+  <h4>{{recipe.id}} - {{ recipe.name}}</h4>
+  <p>
+    {{recipe.use}}
+  </p>
+  <ul>
+      <li ng-repeat="item in recipe.items">
+          {{item.name}} x{{item.num}}
+      </li>
   </ul>
-  <h3 class="text-muted">al khemi</h3>
 </div>
-
-<div class="jumbotron">
-  <h1>'Allo, 'Allo!</h1>
-  <p class="lead">
-    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
-    Always a pleasure scaffolding your apps.
-  </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
 </div>
-
-<div class="row marketing">
-  <h4>HTML5 Boilerplate</h4>
-  <p>
-    HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
-  </p>
-
-  <h4>Angular</h4>
-  <p>
-    AngularJS is a toolset for building the framework most suited to your application development.
-  </p>
-
-  <h4>Karma</h4>
-  <p>Spectacular Test Runner for JavaScript.</p>
-</div>
-
 <div class="footer">
-  <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+  <p class="text-center"><span class="glyphicon glyphicon-heart"></span> from Aveline - <a href="http://www.aveline.be" target="_blank">aveline.be</a></p>
 </div>
