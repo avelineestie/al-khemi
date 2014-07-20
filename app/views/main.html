@@ -21,14 +21,21 @@
     </div><!-- /.container-fluid -->
 </nav>
 <div class="row">
-    <p class="col-md-12">This is a recipe finder for Ni No Kuni: Wrath of the White Witch.<br/><br/>Type in the name of an item below and you will see all the recipes that use this item.</p>
+    <p class="col-md-12 h4 text-center">Recipe finder for Ni No Kuni: Wrath of the White Witch</p>
+    <p class="col-md-12">Type in an item name below and you will see all the recipes that use this item and also the required amounts of that item.</p>
 </div>
 
 <div class="row">
 <div class="col-md-12">
     <input type="text" ng-model="query" placeholder="Type an item name"/>
 </div>
-<div class="col-md-4" ng-repeat="recipe in recipes | filter:query">
+</div>
+
+        <div class="row">
+            <div class="col-xs-12">Sort by: <a href="" ng-click="predicate = 'id'">Id (low to high)</a> &middot; <a href="" ng-click="predicate = '-id'">Id (high to low)</a> &middot; <a href="" ng-click="predicate = 'name'">Recipe name (A -> Z)</a> &middot; <a href="" ng-click="predicate = '-name'">Recipe name (Z -> A)</a></div>
+        </div>
+<div class="row">
+<div class="col-xs-6 col-sm-3" ng-repeat="recipe in recipes | filter:query | orderBy:predicate">
   <h4>{{recipe.id}} - {{ recipe.name}}</h4>
   <p>
     {{recipe.use}}
